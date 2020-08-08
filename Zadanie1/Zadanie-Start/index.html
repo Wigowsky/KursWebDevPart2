@@ -1,0 +1,130 @@
+<!-- 
+    Układ 16:9
+    Ma być podobny (nie pixel w pixel)
+    Ma być responsywny (dostosowoywać się do wysokości przeglądarki)
+
+    ZŁOTE ZASADY
+    - Zrób tak jak potrafisz i tyle ile potrafisz
+    - Próbuj/testuj/sprawdzaj co by było. Takie próbowanie to najważniejsze cechy programisty
+    - Nie przeskakuj ćwiczenia. 
+ -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A dream about old Japan</title>
+    <style>
+        .picture {
+            position: absolute;
+            width: 80vh;
+            height: 45vh;
+            top: calc(50% - 45vh/2);
+            left: calc(50% - 80vh/2);
+            /* margin: 50px auto; */
+            background-color: lightblue;
+            overflow: hidden;
+            z-index: -2;
+            background-color: #BDB1A9;
+        }
+
+        img {
+            position: absolute;
+            display: block;
+        }
+
+        .p1 {
+
+            width: 100%;
+            left: 0;
+            bottom: -10%;
+        }
+
+        .p2 {
+
+            width: 100%;
+            left: 0;
+            bottom: -24%;
+        }
+
+        .p3 {
+
+            width: 100%;
+            left: 0;
+            bottom: -36%;
+        }
+
+        .p4 {
+
+            width: 100%;
+            left: 0;
+            bottom: -34%;
+        }
+
+        .p5 {
+
+            width: 100%;
+            left: 0;
+            bottom: -45%;
+        }
+
+        .p6 {
+
+            width: 100%;
+            left: 0;
+            bottom: -72%;
+        }
+
+        .p7 {
+            width: 10%;
+            top: 2%;
+            left: 6%;
+        }
+
+        .p8 {
+            width: 40%;
+            top: 7%;
+            left: -9%;
+        }
+
+        .p9 {
+            width: 50%;
+            right: 0%;
+            top: 5%;
+        }
+
+        .p10 {
+            width: 40%;
+            right: 0%;
+            top: 25%;
+        }
+
+        .p11 {
+            width: 8%;
+            left: 4%;
+            bottom: 8%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="picture">
+        <!-- img[src=img/japan$.png]*11 -->
+        <img class="p1" src="img/japan1.png" alt="">
+        <img class="p2" src="img/japan2.png" alt="">
+        <img class="p3" src="img/japan3.png" alt="">
+        <img class="p4" src="img/japan4.png" alt="">
+        <img class="p5" src="img/japan5.png" alt="">
+        <img class="p6" src="img/japan6.png" alt="">
+        <img class="p7" src="img/japan7.png" alt="">
+        <img class="p8" src="img/japan8.png" alt="">
+        <img class="p9" src="img/japan9.png" alt="">
+        <img class="p10" src="img/japan10.png" alt="">
+        <img class="p11" src="img/japan11.png" alt="">
+
+    </div>
+</body>
+
+</html>
