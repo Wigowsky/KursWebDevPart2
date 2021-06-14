@@ -1,0 +1,9 @@
+https://medium.com/nerd-for-tech/redux-react-bc34e0a52b2b - react + redux
+https://dev.to/pawel/what-is-react-how-to-use-it-and-why-react-js-basics-for-beginners-in-plain-english-3cl7 - react for beginers
+
+https://dev.to/mursalfk/basic-hooks-in-react-4ai3 - 2 części o hookach
+https://dev.to/awedis/react-best-practices-4l4m - best practices
+
+https://dev.to/kiranrajvjd/the-ultimate-web-developer-resources-list-200-resources-2gf5 - strona z narzędziami do wykorzystania (CSS, kształty itp)
+
+https://dev.to/worldindev/400-javascript-interview-questions-with-answers-2fcj- pytania rektrutacyjne

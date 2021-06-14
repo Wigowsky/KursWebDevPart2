@@ -1,0 +1,2 @@
+https://headlessui.dev/ - strona z dokumentacją dla ciekawych komponentów
+https://tailwindcss.com/ - dokumentacja
