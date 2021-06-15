@@ -5,3 +5,9 @@ body {
 header {
     color: white;
 }
+
+.content-wrapper {
+    margin-top: 60px;
+    min-height: calc(100vh - 60px);
+    display: flex;
+}
