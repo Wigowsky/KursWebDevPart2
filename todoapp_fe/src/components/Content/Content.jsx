@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Redirect, Switch, Route } from "react-router";
 import bemCssModules from 'bem-css-modules';
 import Courses from "../Courses/Courses";
+import UserCourses from "../UserCourses/UserCourses";
 
 import { StoreContext } from '../../store/StoreProvider';
 
@@ -24,7 +25,7 @@ const Content = () => {
     <main className={style()}>
     <Switch>
         <Route exact path="/" render={()=> <Courses/>}/>
-        {isUserLogged && <Route exact path="/my-courses" render={()=> <p>Moje Kursy</p>}/>}
+        {isUserLogged && <Route exact path="/my-courses" render={()=> <UserCourses/>}/>}
         {isAdmin && <Route exact path="/manage-courses" render={()=> <p>Zarządzanie kursami</p>}/>}
         <Redirect to="/"/>
     </Switch>
